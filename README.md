@@ -27,7 +27,7 @@ seo-ggcode/
     palavras-chave.md          pesquisa "serviço + cidade" para negócio local brasileiro
     conteudo.md                páginas por serviço, FAQ, texto que a IA consegue extrair
     fora-do-site.md            Perfil da Empresa no Google, Bing Places, diretórios por setor
-    arquivos-raiz.md           robots.txt (quais robôs de IA liberar), sitemap, llms.txt
+    arquivos-raiz.md           robots.txt (quais robôs de IA liberar) e sitemap
     mitos.md                   o que não funciona ou é arriscado
 ```
 

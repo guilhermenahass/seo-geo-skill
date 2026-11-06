@@ -49,7 +49,7 @@ Marque cada item. Em cada um, o motivo vem junto para você decidir bem quando o
 ## 4. Imagens e mídia
 - [ ] Formato AVIF ou WebP, no tamanho de exibição (não 4000 px exibida em 600 px). `srcset`/`sizes` quando a imagem muda muito entre mobile e desktop.
 - [ ] `width` e `height` em toda `<img>` (evita CLS). CSS pode redimensionar depois.
-- [ ] `alt` descritivo em imagem com conteúdo ("Dra. Tatiane atendendo paciente no consultório em Sorocaba"). `alt=""` em imagem decorativa. Sem encher de palavra-chave.
+- [ ] `alt` descritivo em imagem com conteúdo ("Dra. Ana atendendo paciente no consultório em Sorocaba"). `alt=""` em imagem decorativa. Sem encher de palavra-chave.
 - [ ] Imagem principal do topo (LCP): **sem** `loading="lazy"`, com `fetchpriority="high"`, e `<link rel="preload">` se for background CSS. Demais imagens: `loading="lazy"`.
 - [ ] Nome de arquivo descritivo: `consultorio-odontologico-sorocaba.webp`, não `IMG_2034.webp`.
 - [ ] Fotos reais do cliente (fachada, equipe, trabalho) valem mais que banco de imagem, para usuário, para o Google Imagens e para o GBP.

@@ -37,7 +37,7 @@ Regras:
     {
       "@type": "Dentist",
       "@id": "https://www.dominio.com.br/#negocio",
-      "name": "Dra. Tatiane Pontes Odontologia",
+      "name": "Dra. Ana Souza Odontologia",
       "url": "https://www.dominio.com.br/",
       "image": "https://www.dominio.com.br/img/consultorio.jpg",
       "logo": "https://www.dominio.com.br/img/logo.png",
@@ -68,14 +68,14 @@ Regras:
         "https://www.facebook.com/perfil",
         "https://maps.google.com/?cid=000000000000"
       ],
-      "founder": { "@type": "Person", "name": "Tatiane Pontes", "identifier": "CRO-SP 125743" },
+      "founder": { "@type": "Person", "name": "Ana Souza", "identifier": "CRO-SP 000000" },
       "knowsAbout": ["Implante dentário", "Clareamento dental", "Ortodontia"]
     },
     {
       "@type": "WebSite",
       "@id": "https://www.dominio.com.br/#site",
       "url": "https://www.dominio.com.br/",
-      "name": "Dra. Tatiane Pontes Odontologia",
+      "name": "Dra. Ana Souza Odontologia",
       "inLanguage": "pt-BR",
       "publisher": { "@id": "https://www.dominio.com.br/#negocio" }
     }

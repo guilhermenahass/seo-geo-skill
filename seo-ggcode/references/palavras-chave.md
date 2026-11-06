@@ -4,7 +4,7 @@
 Negócio local tem três tipos de busca:
 1. **Serviço + cidade/bairro**: "dentista em Sorocaba", "advogado trabalhista zona sul SP". O Google mostra o mapa (3 empresas) e depois os sites. É a busca que mais vira cliente.
 2. **"Perto de mim" / sem cidade**: "dentista perto de mim", "implante dentário". O Google usa a localização da pessoa. Ganha quem tem GBP forte e site relevante para o serviço.
-3. **Marca**: "Ibanhez", "Casa Maestro imobiliária". Tem que ser o primeiro resultado com o painel do GBP ao lado. Se não for, há problema técnico ou de consistência.
+3. **Marca**: "Ibanhez", "Imobiliária Exemplo". Tem que ser o primeiro resultado com o painel do GBP ao lado. Se não for, há problema técnico ou de consistência.
 
 Mais o tipo **pergunta**: "quanto custa implante dentário", "quanto tempo dura clareamento". Bom para página de serviço (seção de perguntas) e para aparecer em AI Overviews.
 

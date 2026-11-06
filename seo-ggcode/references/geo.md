@@ -122,7 +122,7 @@ Sem ferramenta paga dá para medir bem o suficiente para mostrar tendência ao c
 **Montar o conjunto de prompts (15 a 25 por cliente)**, em português, como o cliente final pergunta:
 - Categoria + cidade: "dentista em Sorocaba", "qual o melhor dentista em Sorocaba para implante?"
 - Necessidade: "preciso fazer implante dentário em Sorocaba, onde vou?", "empresa para içamento de tanque industrial perto de Sorocaba"
-- Comparação: "Dra. Tatiane Pontes ou [concorrente]?"
+- Comparação: "Dra. Ana Souza ou [concorrente]?"
 - Pergunta informativa do setor: "quanto custa implante dentário em Sorocaba?"
 - Marca: "o que é a [empresa]?", "a [empresa] é confiável?", "qual o telefone e endereço da [empresa]?" (confere se a IA tem os fatos certos)
 
