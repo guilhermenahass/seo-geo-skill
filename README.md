@@ -43,22 +43,23 @@ O `auditar.py` lê uma pasta, um arquivo HTML ou uma URL no ar e aponta o que es
 O script sai com código 1 quando há erro, então dá para usar como trava antes de publicar.
 
 ```
-$ python seo-ggcode/scripts/auditar.py https://drmarcelofranco.com.br
+$ python seo-ggcode/scripts/auditar.py https://ibanhezservicosind.com
 
-=== https://drmarcelofranco.com.br ===
-  [ERRO] Physician sem: address.
-  [AVISO] Physician sem geo (recomendado).
-  [AVISO] Physician sem openingHoursSpecification (recomendado).
-  [OK] Title (39): "Dr. Marcelo Barreto Franco — Urologista"
-  [OK] Canonical: https://drmarcelofranco.com.br/
-  [OK] H1: "Cuidado urológico discreto, técnico e profundamente humano."
-  [OK] 1211 palavras de texto no HTML.
-  [OK] JSON-LD: Physician
+=== https://ibanhezservicosind.com ===
+  [AVISO] H1 com 98 caracteres, provavelmente palavras de animação repetidas. É assim que o Google lê: "Manutenção, montagem industrial e construção civil Da base à manutenção, excelência em cada etapa."
+  [AVISO] GeneralContractor sem geo (recomendado).
+  [OK] Title (58): "Ibanhez: manutenção industrial e obras civis – Sorocaba/SP"
+  [OK] Description com 146 caracteres (ideal 120-155).
+  [OK] Canonical: https://ibanhezservicosind.com/
+  [OK] 1038 palavras de texto no HTML.
+  [OK] JSON-LD: GeneralContractor, WebSite
   ...
-Total: 1 erro(s).
+Total: 0 erro(s).
 ```
 
-<sub>Saída real em um site de cliente da GG Code. O erro apontado virou tarefa de correção.</sub>
+<sub>Saída real em um site de cliente da GG Code.</sub>
+
+**Resultado na prática:** na primeira rodada, em novembro de 2026, a auditoria achou erros em 3 dos sites no ar (canonical ausente, falta de JSON-LD, endereço faltando nos dados estruturados). Depois das correções, **5 de 6 sites passam com zero erros**. O sexto é o da própria agência, que não tem endereço físico para declarar.
 
 ## Medição de GEO
 
