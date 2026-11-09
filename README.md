@@ -1,5 +1,7 @@
 # SEO + GEO para negócios locais: skill para Claude Code
 
+[![CI](https://github.com/guilhermenahass/seo-geo-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/guilhermenahass/seo-geo-skill/actions/workflows/ci.yml)
+
 **Um agente de IA que aplica SEO técnico e GEO (Generative Engine Optimization) nos sites da GG Code, para o cliente aparecer no Google e ser recomendado pelo ChatGPT, Gemini, Perplexity, Copilot e Claude.**
 
 Escrevi esta skill para o [Claude Code](https://docs.anthropic.com/en/docs/claude-code) transformar o processo de SEO da minha agência em algo que o agente executa sozinho e sempre do mesmo jeito. Quando um site de cliente está sendo finalizado, o agente reconhece o contexto e segue as fases da skill: levanta os dados do negócio, ajusta o código, gera os dados estruturados, roda a auditoria e entrega o checklist do que precisa ser feito fora do site.
@@ -41,6 +43,8 @@ O `auditar.py` lê uma pasta, um arquivo HTML ou uma URL no ar e aponta o que es
 - robots.txt, sitemap e página 404.
 
 O script sai com código 1 quando há erro, então dá para usar como trava antes de publicar.
+
+**Testes:** a auditoria é testada a cada commit no GitHub Actions com dois sites de exemplo em `tests/fixtures/`. O site certo precisa passar com zero erros, e o site com 10 erros conhecidos precisa ter todos detectados. O teste já pegou um bug: a página 404 era auditada como página comum e acusava `noindex`, que numa 404 é o correto.
 
 ```
 $ python seo-ggcode/scripts/auditar.py https://ibanhezservicosind.com

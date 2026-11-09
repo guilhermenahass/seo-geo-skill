@@ -415,8 +415,10 @@ def main():
             arquivos, pasta = [caminho], caminho.parent
         else:
             pasta = caminho
+            # 404.html deve ter noindex e pouco texto: só a existência é checada (checar_raiz).
             arquivos = [f for f in caminho.rglob("*.html")
-                        if not IGNORAR_PASTAS & set(f.relative_to(caminho).parts)]
+                        if not IGNORAR_PASTAS & set(f.relative_to(caminho).parts)
+                        and f.name != "404.html"]
         for f in sorted(arquivos):
             relatorios.append(auditar_html(f.read_text("utf-8", "replace"),
                                            str(f.relative_to(pasta)), f.parent))
